@@ -1,0 +1,66 @@
+<resources>
+    <string name="feeds_url">feeds.txt</string>
+
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="item_check_box_day1">Mn</string>
+    <string name="item_check_box_day2">Tu</string>
+    <string name="item_check_box_day3">Wd</string>
+    <string name="item_check_box_day4">Th</string>
+    <string name="item_check_box_day5">Fr</string>
+    <string name="item_check_box_day6">St</string>
+    <string name="item_check_box_day7">Su</string>
+    <string name="item_every_day">Every day</string>
+    <string name="item_no_day">No day chosen</string>
+
+    <string name="wake_wake_up">Get up</string>
+    <string name="wake_five_minutes">Five more minutes</string>
+    <string name="wake_exit">Exit</string>
+
+    <string name="settings_sound_title">ALARM CLOCK</string>
+    <string name="settings_sound_ringtone_pick">Choose</string>
+    <string name="settings_sound_sound">Ringtone</string>
+    <string name="settings_sound_vibration">Vibration</string>
+
+    <string name="settings_news_title">NEWS</string>
+    <string name="settings_news_rss">RSS feed list</string>
+
+    <string name="settings_theme_title">THEME</string>
+    <string name="settings_theme_dark">Dark theme</string>
+
+    <string name="error_no_permissions">No permission to get location</string>
+    <string name="error_no_permissions_button">Get permission</string>
+    <string name="error_no_location">Can not recognize location</string>
+    <string name="error_no_internet_connection">No internet</string>
+    <string name="error_url_exists">URL already exists in the list</string>
+    <string name="error_timeout">Timeout</string>
+    <string name="error_parse">Can not parse RSS</string>
+    <string name="error_bad_url">Invalid URL</string>
+    <string name="error_cached_news">Old news</string>
+    <string name="error_refresh">Refresh</string>
+    <string name="error_empty_list">No news</string>
+
+    <string name="location_info">Application need permission to get location to get weather forecast. If click on \"Get permission\" you will go to application settings, where you can give app location permission.</string>
+    <string name="write_settings_info">To change alarm ringtone you should give this application permission to change system ringtone in application settings. If you don\'t do it, application will use default system ringtone.</string>
+
+    <string name="dialog_save">Save</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_loading">Checking</string>
+    <string name="dialog_list_empty">Empty</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_go">Go to</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="notification_title">Next alarm</string>
+    <string name="notification_title_off">Alarm disabled</string>
+    <string name="notification_alarms_turn_on">Turn alarm on</string>
+    <string name="notification_alarms_turn_off">Turn alarm off</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feeds_url">feeds-ru.txt</string>
+
+    <string name="app_name">Будильник</string>
+
+    <string name="item_check_box_day1">Пн</string>
+    <string name="item_check_box_day2">Вт</string>
+    <string name="item_check_box_day3">Ср</string>
+    <string name="item_check_box_day4">Чт</string>
+    <string name="item_check_box_day5">Пт</string>
+    <string name="item_check_box_day6">Сб</string>
+    <string name="item_check_box_day7">Вс</string>
+    <string name="item_every_day">Каждый день</string>
+    <string name="item_no_day">Не выбраны дни</string>
+
+    <string name="wake_wake_up">Подъем</string>
+    <string name="wake_five_minutes">Ещё 5 минут</string>
+    <string name="wake_exit">Выход</string>
+
+    <string name="settings_sound_title">БУДИЛЬНИК</string>
+    <string name="settings_sound_ringtone_pick">Выбор</string>
+    <string name="settings_sound_sound">Мелодия</string>
+    <string name="settings_sound_vibration">Вибрация</string>
+
+    <string name="settings_news_title">НОВОСТИ</string>
+    <string name="settings_news_rss">Каталог RSS каналов</string>
+
+    <string name="settings_theme_title">ТЕМА</string>
+    <string name="settings_theme_dark">Темная тема</string>
+
+    <string name="error_no_permissions">Нет прав на получение геолокации</string>
+    <string name="error_no_permissions_button">Получить</string>
+    <string name="error_no_location">Не удается определить местоположение</string>
+    <string name="error_no_internet_connection">Нет интернет соединения</string>
+    <string name="error_url_exists">Ссылка уже существует</string>
+    <string name="error_timeout">Превышено время ожидания</string>
+    <string name="error_parse">Невозможно распознать rss</string>
+    <string name="error_bad_url">Невалидная ссылка</string>
+    <string name="error_cached_news">Устаревшие новости</string>
+    <string name="error_refresh">Обновить</string>
+    <string name="error_empty_list">Нет новостей</string>
+
+    <string name="location_info">Для получения прогноза погоды необходимы права на получение геолокации. Если нажать на \"Получить\", то откроются настройки приложения, где можно дать необходимые права приложению.</string>
+    <string name="write_settings_info">Для изменения ринтгона будильника необходимо перейти в настрйоки и дать права на изменение системных ринготов. Если этого не сделать, то будет использован стандартный рингтон.</string>
+
+    <string name="dialog_save">Сохранить</string>
+    <string name="dialog_add">Добавить</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_loading">Проверка</string>
+    <string name="dialog_list_empty">Пусто</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_go">Перейти</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <string name="notification_title">Следующий будильник</string>
+    <string name="notification_title_off">Будильник выключен</string>
+    <string name="notification_alarms_turn_on">Включить будильник</string>
+    <string name="notification_alarms_turn_off">Выключить будильник</string>
+</resources>

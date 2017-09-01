@@ -1,0 +1,5 @@
+https://meduza.io/rss/all
+https://russian.rt.com/rss
+https://tjournal.ru/rss/all
+https://lenta.ru/rss/news
+https://www.sports.ru/rss/main.xml

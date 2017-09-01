@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingBottom="16dp"
+
+        tools:context="com.andrew.alarmclock.settings.presentation.SettingsFragment">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end"
+                    android:text="@string/settings_sound_title"
+                    android:textColor="?attr/hardcoded_accent"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/settings_sound_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/settings_text_view_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingBottom="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end"
+                    android:text="@string/settings_sound_sound"
+                    android:theme="@style/DefaultTextSize16" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginEnd="@dimen/separator_margin_start_end"
+                    android:layout_marginStart="@dimen/separator_margin_start_end"
+                    android:background="@color/separator" />
+
+                <LinearLayout
+                    android:id="@+id/settings_vibration_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/settings_text_view_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingBottom="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_sound_vibration"
+                        android:theme="@style/DefaultTextSize16" />
+
+                    <CheckBox
+                        android:id="@+id/settings_vibration_check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:button="?attr/settings_checkbox_drawable" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_card_view_margin_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end"
+                    android:text="@string/settings_news_title"
+                    android:textColor="?attr/hardcoded_accent"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/settings_rss_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/settings_text_view_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingBottom="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end"
+                    android:text="@string/settings_news_rss"
+                    android:theme="@style/DefaultTextSize16" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_card_view_margin_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end"
+                    android:text="@string/settings_theme_title"
+                    android:textColor="?attr/hardcoded_accent"
+                    android:textSize="14sp"
+                    android:id="@+id/textView" />
+
+                <LinearLayout
+                    android:id="@+id/settings_dark_theme_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/settings_text_view_height"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/settings_padding_items_top_bottom"
+                    android:paddingBottom="@dimen/settings_padding_items_top_bottom"
+                    android:paddingStart="@dimen/settings_padding_items_start_end"
+                    android:paddingEnd="@dimen/settings_padding_items_start_end">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_theme_dark"
+                        android:theme="@style/DefaultTextSize16" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/settings_dark_theme_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,87 @@
+<resources>
+
+    <!--LIGHT THEME-->
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:alertDialogTheme">@style/SettingsAlertDialogStyle.Light</item>
+
+        <item name="hardcoded_accent">@color/accent</item>
+        <item name="hardcoded_black_white_color">@color/black</item>
+        <item name="hardcoded_black_white_color_reverse">@color/white</item>
+        <item name="toggle_text_drawable">@drawable/day_toggle_text_selector</item>
+        <item name="settings_checkbox_drawable">@drawable/on_vibration_check_box_selector</item>
+        <item name="item_alarm_toggle_drawable">@drawable/day_toggle_button_selector</item>
+        <item name="item_alarm_checkbox_drawable">@drawable/on_alarm_check_box_selector</item>
+        <item name="wake_circle_button">@drawable/button_circle</item>
+    </style>
+
+    <style name="SettingsAlertDialogStyle.Light" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:buttonBarStyle">@color/white</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.SettingsTitleTextView.Light" parent="AppTheme.Light">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <!--DARK THEME-->
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorPrimary">@color/accent_dark</item>
+        <item name="colorAccent">@color/accent_dark</item>
+        <item name="android:alertDialogTheme">@style/SettingsAlertDialogStyle.Dark</item>
+
+        <item name="hardcoded_accent">@color/accent_dark</item>
+        <item name="hardcoded_black_white_color">@color/white</item>
+        <item name="hardcoded_black_white_color_reverse">@color/grey</item>
+        <item name="toggle_text_drawable">@drawable/day_toggle_text_selector_dark</item>
+        <item name="settings_checkbox_drawable">@drawable/on_vibration_check_box_selector_dark</item>
+        <item name="item_alarm_toggle_drawable">@drawable/day_toggle_button_selector_dark</item>
+        <item name="item_alarm_checkbox_drawable">@drawable/on_alarm_check_box_selector_dark</item>
+        <item name="wake_circle_button">@drawable/button_circle_dark</item>
+    </style>
+
+    <style name="SettingsAlertDialogStyle.Dark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:buttonBarStyle">@color/grey</item>
+        <item name="colorAccent">@color/accent_dark</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.SettingsTitleTextView.Dark" parent="AppTheme.Dark">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent_dark</item>
+    </style>
+
+    <!--FONTS-->
+
+    <style name="ItemTimeTextSize">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="WakeTimeTextSize">
+        <item name="android:textSize">70sp</item>
+    </style>
+
+    <style name="DefaultTextSize16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DefaultTextSize14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DefaultTextSize12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,63 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alarm_clock_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrew.alarmclock.alarm.alarmClock.presentation.AlarmClockFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/alarm_clock_nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/alarm_clock_scroll_view_padding_bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/alarm_clock_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/alarm_clock_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+            app:srcCompat="@drawable/ic_fab_add"
+            app:fabSize="normal"
+
+            android:layout_marginBottom="@dimen/alarm_clock_fab_margin_bottom"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/alarm_clock_fab_disturb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/alarm_clock_fab"
+
+            android:layout_marginStart="@dimen/alarm_clock_fab_disturb_margin_start"
+            app:layout_constraintLeft_toRightOf="@+id/alarm_clock_fab"
+
+            app:layout_constraintBottom_toBottomOf="@+id/alarm_clock_fab"
+            app:layout_constraintTop_toTopOf="@+id/alarm_clock_fab" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawable_stroke_width">1dp</dimen>
+
+    <dimen name="alarm_clock_scroll_view_padding_bottom">80dp</dimen>
+    <dimen name="alarm_clock_fab_margin_bottom">16dp</dimen>
+    <dimen name="alarm_clock_fab_disturb_margin_start">16dp</dimen>
+    <dimen name="alarm_clock_scroll_view_padding_bottom_land">40dp</dimen>
+
+    <dimen name="alarm_wake_time_text_view_margin_top_after_anim">24dp</dimen>
+    <dimen name="alarm_wake_time_text_view_margin_top">152dp</dimen>
+    <dimen name="alarm_wake_time_text_view_margin_top_land">88dp</dimen>
+    <dimen name="alarm_wake_wake_up_button_margin_bottom">160dp</dimen>
+    <dimen name="alarm_wake_wake_up_button_margin_bottom_land">80dp</dimen>
+    <dimen name="alarm_wake_five_minutes_button_margin_top">64dp</dimen>
+    <dimen name="alarm_wake_five_minutes_button_margin_top_land">56dp</dimen>
+    <dimen name="alarm_wake_exit_button_margin_start">8dp</dimen>
+
+    <dimen name="dialog_loading_layout_padding">16dp</dimen>
+    <dimen name="dialog_loading_text_view_margin_start_end">8dp</dimen>
+
+    <dimen name="dialog_rss_add_edit_text_padding_top">32dp</dimen>
+    <dimen name="dialog_rss_add_edit_text_margin_start_end">16dp</dimen>
+
+    <dimen name="dialog_rss_list_padding">16dp</dimen>
+
+    <dimen name="item_alarm_clock_margin_start">16dp</dimen>
+    <dimen name="item_alarm_clock_margin_end">16dp</dimen>
+    <dimen name="item_alarm_clock_text_view_days_margin_bottom">24dp</dimen>
+    <dimen name="item_alarm_clock_inner_layout_margin_bottom">16dp</dimen>
+    <dimen name="item_alarm_clock_card_view_margin_bottom">8dp</dimen>
+    <dimen name="item_alarm_clock_layout_padding_top">16dp</dimen>
+    <dimen name="item_alarm_clock_day_text_view_margin_start">4dp</dimen>
+    <dimen name="item_alarm_clock_day_toggle_size">32dp</dimen>
+    <dimen name="item_alarm_clock_delete_button_margin_bottom">16dp</dimen>
+    <dimen name="item_alarm_clock_delete_button_size">28dp</dimen>
+
+    <dimen name="item_rss_list_layout_margin_bottom">4dp</dimen>
+    <dimen name="item_rss_list_delete_button_margin_bottom">8dp</dimen>
+    <dimen name="item_rss_list_separator_margin_bottom">4dp</dimen>
+    <dimen name="item_rss_list_empty_layout_padding">8dp</dimen>
+
+    <dimen name="item_weather_error_margin_top_bottom">8dp</dimen>
+    <dimen name="item_weather_image_view_size">60dp</dimen>
+
+    <dimen name="item_news_card_view_margin_bottom">8dp</dimen>
+
+    <dimen name="pager_view_pager_margin_top">4dp</dimen>
+
+    <dimen name="settings_padding_items_top_bottom">8dp</dimen>
+    <dimen name="settings_padding_items_start_end">16dp</dimen>
+    <dimen name="settings_text_view_height">52dp</dimen>
+    <dimen name="settings_card_view_margin_top">8dp</dimen>
+
+    <dimen name="separator_margin_start_end">16dp</dimen>
+</resources>

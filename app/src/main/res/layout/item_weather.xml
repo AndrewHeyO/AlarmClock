@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/item_weather_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image1"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/item_weather_date1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image2"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image3"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image4"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image5"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/item_weather_date5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image6"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image7"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/item_weather_image8"
+                    android:layout_width="@dimen/item_weather_image_view_size"
+                    android:layout_height="@dimen/item_weather_image_view_size"
+                    android:padding="12dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/item_weather_date8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize16"
+
+                    tools:text="31.07" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_day8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+28..+26" />
+
+                <TextView
+                    android:id="@+id/item_weather_temp_night8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:theme="@style/DefaultTextSize14"
+
+                    tools:text="+17..+15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
