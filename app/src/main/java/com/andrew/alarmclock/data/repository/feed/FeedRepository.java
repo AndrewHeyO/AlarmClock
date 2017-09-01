@@ -10,7 +10,6 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import io.reactivex.Observable;
 import io.reactivex.Single;
 
 public class FeedRepository implements IFeedRepository {
@@ -31,10 +30,6 @@ public class FeedRepository implements IFeedRepository {
         return Single.fromCallable(() -> feedDao.getAllFeeds());
     }
 
-    @Override
-    public Observable<List<Feed>> getFeedsConsistently() {
-        return Observable.fromCallable(() -> feedDao.getAllFeeds());
-    }
 
     @Override
     public Single<Object> insertFeed(Feed feed) {
@@ -60,12 +55,12 @@ public class FeedRepository implements IFeedRepository {
 
     @Override
     public Single<Object> writeFeedsFromAssets(String assets) {
-        return Single.fromCallable(() ->
-                assetsSource.getFeedsUrls(assets)
-                        .map(url -> {
-                            feedDao.insertFeed(new Feed(url));
-                            return new Object();
-                        })
-                        .subscribe());
+        return assetsSource.getFeedsUrls(assets)
+                .map(url -> {
+                    feedDao.insertFeed(new Feed(url));
+                    return new Object();
+                })
+                .toList()
+                .map(val -> new Object());
     }
 }

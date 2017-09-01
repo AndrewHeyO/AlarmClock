@@ -50,11 +50,11 @@ public class NewsPresenter extends BasePresenter<NewsView> {
     }
 
     public void onGetNewsAndWeather() {
-        addDisposables(interactor.getWeatherAndNews()
+        interactor.getWeatherAndNews()
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io())
                 .subscribe(this::handleSuccess,
-                        error -> Log.d("NewsPresenter_NandW", error.getMessage())));
+                        error -> Log.d("NewsPresenter_NandW", error.getMessage()));
     }
 
     private void onHandleRefreshColor() {

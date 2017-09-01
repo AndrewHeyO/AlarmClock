@@ -11,9 +11,9 @@ import io.reactivex.Single;
 public interface INewsRepository {
     Observable<NewsItem> getRssFeed(String url);
 
-    Observable<NewsResponse> refreshNewsDatabase(List<NewsItem> newsItems);
+    Single<NewsResponse> refreshNewsDatabase(List<NewsItem> newsItems);
 
     Single<Object> removeAllNewsByFeed(String feed);
 
-    Observable<List<NewsItem>> getCachedRssFeed();
+    Single<List<NewsItem>> getCachedRssFeed();
 }

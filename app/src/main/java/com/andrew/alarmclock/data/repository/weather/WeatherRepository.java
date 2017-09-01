@@ -7,7 +7,7 @@ import com.andrew.alarmclock.utils.Constant;
 
 import javax.inject.Inject;
 
-import io.reactivex.Observable;
+import io.reactivex.Single;
 
 public class WeatherRepository implements IWeatherRepository {
 
@@ -22,15 +22,12 @@ public class WeatherRepository implements IWeatherRepository {
     }
 
     @Override
-    public Observable<WeatherResponse> getWeather(CustomLocation location) {
-        if(location.getError() != null) {
-            return Observable.just(new WeatherResponse(location.getError()));
+    public Single<WeatherResponse> getWeather(CustomLocation location) {
+        if (location.getError() != null) {
+            return Single.just(new WeatherResponse(location.getError()));
         } else {
-            return api.getWeatherByCoordinates(location.getLatitude(),
-                    location.getLongitude(),
-                    NUM_OF_WEATHER_FORECASTS,
-                    MEASURE_UNITS,
-                    Constant.WEATHER_API_KEY)
+            return api.getWeatherByCoordinates(location.getLatitude(), location.getLongitude(),
+                        NUM_OF_WEATHER_FORECASTS, MEASURE_UNITS, Constant.WEATHER_API_KEY)
                     .map(WeatherResponse::new)
                     .onErrorReturn(WeatherResponse::new);
         }

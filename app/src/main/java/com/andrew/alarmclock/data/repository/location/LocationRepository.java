@@ -6,7 +6,7 @@ import com.andrew.alarmclock.data.sourse.location.ILocationSource;
 
 import javax.inject.Inject;
 
-import io.reactivex.Observable;
+import io.reactivex.Single;
 
 public class LocationRepository implements ILocationRepository {
 
@@ -18,15 +18,11 @@ public class LocationRepository implements ILocationRepository {
     }
 
     @Override
-    public Observable<CustomLocation> getLocation() {
+    public Single<CustomLocation> getLocation() {
         return source.getLocation()
-                .toObservable()
-                .flatMap(value -> {
-                    if (value == null)
-                        return Observable.just(new CustomLocation(new LocationError()));
-
-                    return Observable.just(new CustomLocation(value.getLatitude(), value.getLongitude()));
-                })
+                .flatMap(value -> Single.just(value == null ?
+                        new CustomLocation(new LocationError()) :
+                        new CustomLocation(value.getLatitude(), value.getLongitude())))
                 .onErrorReturn(CustomLocation::new);
     }
 }
