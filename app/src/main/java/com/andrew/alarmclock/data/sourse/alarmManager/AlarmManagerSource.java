@@ -66,7 +66,6 @@ public class AlarmManagerSource implements IAlarmManagerSource {
         for(Alarm.Day day : alarm.getDays()) {
             int dayNum = day.getDayNum();
             calendar.set(Calendar.DAY_OF_WEEK, dayNum);
-            setupIntent(alarm, dayNum);
             alarmManager.setExact(AlarmManager.RTC_WAKEUP,
                     calendar.getTimeInMillis(),
                     setupIntent(alarm, dayNum));

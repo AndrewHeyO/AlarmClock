@@ -4,6 +4,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
 import com.andrew.alarmclock.R;
@@ -30,19 +31,20 @@ public class NotificationSource implements INotificationSource {
     @Override
     public void createNotification(String description, boolean shouldDisturb, boolean isDeleted) {
         if(isDeleted) return;
+        boolean isKitkat = android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP;
         if(shouldDisturb) {
             createNotification(R.string.notification_title,
-                    R.drawable.ic_notification_alarm_on,
+                    isKitkat ? R.drawable.ic_notification_alarm_on : R.drawable.ic_notification_alarm_on_vector,
                     description,
                     R.string.notification_alarms_turn_off,
-                    R.drawable.ic_notification_bell_off,
+                    isKitkat ? R.drawable.ic_notification_bell_off : R.drawable.ic_notification_bell_off_vector,
                     DisturbReceiver.DISTURB_ACTION);
         } else {
             createNotification(R.string.notification_title_off,
-                    R.drawable.ic_notification_alarm_off,
+                    isKitkat ? R.drawable.ic_notification_alarm_off : R.drawable.ic_notification_alarm_off_vector,
                     "",
                     R.string.notification_alarms_turn_on,
-                    R.drawable.ic_notification_bell_on,
+                    isKitkat ? R.drawable.ic_notification_bell_on : R.drawable.ic_notification_bell_on_vector,
                     DisturbReceiver.NO_DISTURB_ACTION);
         }
     }
