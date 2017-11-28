@@ -1,6 +1,6 @@
 package com.andrew.alarmclock.data.repository.news;
 
-import com.andrew.alarmclock.api.news.NewsApi;
+import com.andrew.alarmclock.network.api.news.NewsApi;
 import com.andrew.alarmclock.data.db.news.NewsDao;
 import com.andrew.alarmclock.data.entities.NewsItem;
 import com.andrew.alarmclock.data.entities.api.news.NewsResponse;

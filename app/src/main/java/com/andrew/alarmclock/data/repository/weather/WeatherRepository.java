@@ -1,6 +1,6 @@
 package com.andrew.alarmclock.data.repository.weather;
 
-import com.andrew.alarmclock.api.weather.WeatherApi;
+import com.andrew.alarmclock.network.api.weather.WeatherApi;
 import com.andrew.alarmclock.data.entities.CustomLocation;
 import com.andrew.alarmclock.data.entities.api.weather.WeatherResponse;
 import com.andrew.alarmclock.utils.Constant;

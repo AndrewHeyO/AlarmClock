@@ -1,11 +1,11 @@
 package com.andrew.alarmclock.di.pager;
 
-import com.andrew.alarmclock.alarm.alarmClock.presentation.AlarmClockPresenter;
-import com.andrew.alarmclock.pager.presentation.PagerActivity;
-import com.andrew.alarmclock.settings.presentation.SettingsFragment;
-import com.andrew.alarmclock.settings.presentation.SettingsPresenter;
-import com.andrew.alarmclock.settings.presentation.addRss.AddRssPresenter;
-import com.andrew.alarmclock.settings.presentation.rssList.RssListPresenter;
+import com.andrew.alarmclock.presentation.presenters.alarmClock.AlarmClockPresenter;
+import com.andrew.alarmclock.presentation.view.pager.PagerActivity;
+import com.andrew.alarmclock.presentation.view.settings.SettingsFragment;
+import com.andrew.alarmclock.presentation.presenters.settings.SettingsPresenter;
+import com.andrew.alarmclock.presentation.presenters.settings.addRss.AddRssPresenter;
+import com.andrew.alarmclock.presentation.presenters.settings.rssList.RssListPresenter;
 
 import dagger.Subcomponent;
 

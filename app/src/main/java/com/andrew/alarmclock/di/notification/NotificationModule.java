@@ -13,7 +13,7 @@ import com.andrew.alarmclock.data.repository.notification.INotificationRepositor
 import com.andrew.alarmclock.data.repository.notification.NotificationRepository;
 import com.andrew.alarmclock.data.sourse.notification.INotificationSource;
 import com.andrew.alarmclock.data.sourse.notification.NotificationSource;
-import com.andrew.alarmclock.pager.presentation.PagerActivity;
+import com.andrew.alarmclock.presentation.view.pager.PagerActivity;
 
 import javax.inject.Singleton;
 

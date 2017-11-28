@@ -1,7 +1,7 @@
 package com.andrew.alarmclock.di.wake;
 
-import com.andrew.alarmclock.alarm.alarmWake.presentation.AlarmWakeActivity;
-import com.andrew.alarmclock.alarm.alarmWake.presentation.AlarmWakePresenter;
+import com.andrew.alarmclock.presentation.view.alarmWake.AlarmWakeActivity;
+import com.andrew.alarmclock.presentation.presenters.alarmWake.AlarmWakePresenter;
 
 import dagger.Subcomponent;
 

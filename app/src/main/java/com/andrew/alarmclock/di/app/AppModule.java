@@ -2,8 +2,8 @@ package com.andrew.alarmclock.di.app;
 
 import android.content.Context;
 
-import com.andrew.alarmclock.alarm.disturb.DisturbServiceListener;
-import com.andrew.alarmclock.api.news.NewsApi;
+import com.andrew.alarmclock.data.service.disturb.DisturbServiceListener;
+import com.andrew.alarmclock.network.api.news.NewsApi;
 import com.andrew.alarmclock.data.db.feed.FeedDao;
 import com.andrew.alarmclock.data.repository.feed.FeedRepository;
 import com.andrew.alarmclock.data.repository.feed.IFeedRepository;

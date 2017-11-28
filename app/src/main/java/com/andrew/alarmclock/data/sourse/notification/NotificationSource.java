@@ -8,7 +8,7 @@ import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
 import com.andrew.alarmclock.R;
-import com.andrew.alarmclock.alarm.disturb.DisturbReceiver;
+import com.andrew.alarmclock.data.service.disturb.DisturbReceiver;
 import com.andrew.alarmclock.utils.Constant;
 
 import javax.inject.Inject;

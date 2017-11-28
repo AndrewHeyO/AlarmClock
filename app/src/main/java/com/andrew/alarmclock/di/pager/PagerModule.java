@@ -1,13 +1,13 @@
 package com.andrew.alarmclock.di.pager;
 
-import com.andrew.alarmclock.alarm.alarmClock.business.AlarmClockInteractor;
-import com.andrew.alarmclock.alarm.alarmClock.business.IAlarmClockInteractor;
-import com.andrew.alarmclock.pager.business.IPagerInteractor;
-import com.andrew.alarmclock.pager.business.PagerInteractor;
-import com.andrew.alarmclock.settings.business.IRssSettingsInteractor;
-import com.andrew.alarmclock.settings.business.ISettingsInteractor;
-import com.andrew.alarmclock.settings.business.RssSettingsInteractor;
-import com.andrew.alarmclock.settings.business.SettingsInteractor;
+import com.andrew.alarmclock.business.alarmClock.AlarmClockInteractor;
+import com.andrew.alarmclock.business.alarmClock.IAlarmClockInteractor;
+import com.andrew.alarmclock.business.pager.IPagerInteractor;
+import com.andrew.alarmclock.business.pager.PagerInteractor;
+import com.andrew.alarmclock.business.settings.IRssSettingsInteractor;
+import com.andrew.alarmclock.business.settings.ISettingsInteractor;
+import com.andrew.alarmclock.business.settings.RssSettingsInteractor;
+import com.andrew.alarmclock.business.settings.SettingsInteractor;
 
 import dagger.Binds;
 import dagger.Module;

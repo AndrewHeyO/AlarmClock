@@ -5,7 +5,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-import com.andrew.alarmclock.alarm.alarmReceiver.AlarmClockReceiver;
+import com.andrew.alarmclock.data.service.alarmReceiver.AlarmClockReceiver;
 import com.andrew.alarmclock.data.entities.Alarm;
 import com.andrew.alarmclock.utils.Constant;
 import com.andrew.alarmclock.utils.Utils;

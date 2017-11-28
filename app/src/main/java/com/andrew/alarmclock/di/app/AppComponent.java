@@ -1,11 +1,11 @@
 package com.andrew.alarmclock.di.app;
 
-import com.andrew.alarmclock.alarm.alarmClock.presentation.AlarmClockFragment;
-import com.andrew.alarmclock.alarm.alarmReceiver.AlarmClockBootReceiver;
-import com.andrew.alarmclock.alarm.alarmReceiver.AlarmClockReceiver;
-import com.andrew.alarmclock.alarm.alarmReceiver.TimeChangedReceiver;
-import com.andrew.alarmclock.alarm.disturb.DisturbReceiver;
-import com.andrew.alarmclock.app.AlarmClockApp;
+import com.andrew.alarmclock.presentation.view.alarmClock.AlarmClockFragment;
+import com.andrew.alarmclock.data.service.alarmReceiver.AlarmClockBootReceiver;
+import com.andrew.alarmclock.data.service.alarmReceiver.AlarmClockReceiver;
+import com.andrew.alarmclock.data.service.alarmReceiver.TimeChangedReceiver;
+import com.andrew.alarmclock.data.service.disturb.DisturbReceiver;
+import com.andrew.alarmclock.AlarmClockApp;
 import com.andrew.alarmclock.di.alarm.AlarmModule;
 import com.andrew.alarmclock.di.api.ApiModule;
 import com.andrew.alarmclock.di.assets.AssetsModule;
@@ -17,7 +17,7 @@ import com.andrew.alarmclock.di.notification.NotificationModule;
 import com.andrew.alarmclock.di.pager.PagerComponent;
 import com.andrew.alarmclock.di.sharedPreferences.SharedPreferencesModule;
 import com.andrew.alarmclock.di.wake.WakeComponent;
-import com.andrew.alarmclock.news.presentation.NewsPresenter;
+import com.andrew.alarmclock.presentation.view.news.NewsPresenter;
 
 import javax.inject.Singleton;
 

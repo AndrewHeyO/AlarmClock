@@ -1,7 +1,7 @@
 package com.andrew.alarmclock.di.wake;
 
-import com.andrew.alarmclock.alarm.alarmWake.business.AlarmWakeInteractor;
-import com.andrew.alarmclock.alarm.alarmWake.business.IAlarmWakeInteractor;
+import com.andrew.alarmclock.business.alarmWake.AlarmWakeInteractor;
+import com.andrew.alarmclock.business.alarmWake.IAlarmWakeInteractor;
 
 import dagger.Binds;
 import dagger.Module;

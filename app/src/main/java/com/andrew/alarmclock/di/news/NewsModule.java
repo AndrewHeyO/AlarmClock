@@ -4,8 +4,8 @@ import com.andrew.alarmclock.data.repository.news.INewsRepository;
 import com.andrew.alarmclock.data.repository.news.NewsRepository;
 import com.andrew.alarmclock.data.repository.weather.IWeatherRepository;
 import com.andrew.alarmclock.data.repository.weather.WeatherRepository;
-import com.andrew.alarmclock.news.business.INewsInteractor;
-import com.andrew.alarmclock.news.business.NewsInteractor;
+import com.andrew.alarmclock.business.news.INewsInteractor;
+import com.andrew.alarmclock.business.news.NewsInteractor;
 
 import javax.inject.Singleton;
 

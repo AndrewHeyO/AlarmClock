@@ -2,10 +2,10 @@ package com.andrew.alarmclock.di.api;
 
 import android.content.Context;
 
-import com.andrew.alarmclock.api.news.NewsApi;
-import com.andrew.alarmclock.api.qualifier.Json;
-import com.andrew.alarmclock.api.qualifier.Xml;
-import com.andrew.alarmclock.api.weather.WeatherApi;
+import com.andrew.alarmclock.network.api.news.NewsApi;
+import com.andrew.alarmclock.network.api.qualifier.Json;
+import com.andrew.alarmclock.network.api.qualifier.Xml;
+import com.andrew.alarmclock.network.api.weather.WeatherApi;
 import com.andrew.alarmclock.utils.Constant;
 import com.andrew.alarmclock.utils.NetworkInterceptor;
 import com.google.gson.Gson;

@@ -1,6 +1,6 @@
 package com.andrew.alarmclock.data.repository.feed;
 
-import com.andrew.alarmclock.api.news.NewsApi;
+import com.andrew.alarmclock.network.api.news.NewsApi;
 import com.andrew.alarmclock.data.db.feed.FeedDao;
 import com.andrew.alarmclock.data.entities.Feed;
 import com.andrew.alarmclock.data.error.ExistUrlError;

@@ -5,7 +5,7 @@
     android:id="@+id/alarm_clock_coordinator_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.andrew.alarmclock.alarm.alarmClock.presentation.AlarmClockFragment">
+    tools:context="com.andrew.alarmclock.presentation.view.alarmClock.AlarmClockFragment">
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/alarm_clock_nested_scroll_view"
